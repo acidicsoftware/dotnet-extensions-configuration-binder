@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D79F247-0B57-411F-B846-D7130227BCB4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.github\workflows\continuous-integration.yml = .github\workflows\continuous-integration.yml
+		LICENSE = LICENSE
+		README.md = README.md
+		.github\workflows\release.yml = .github\workflows\release.yml
+		Test.runsettings = Test.runsettings
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration", "src\Acidic.Extensions.Configuration\Acidic.Extensions.Configuration.csproj", "{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration.UnitTests", "test\Acidic.Extensions.Configuration.UnitTests\Acidic.Extensions.Configuration.UnitTests.csproj", "{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acidic.Extensions.Configuration.TestAssets", "test\Acidic.Extensions.Configuration.TestAssets\Acidic.Extensions.Configuration.TestAssets.csproj", "{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1381D6D-C5D6-48EA-96F8-1E42AE140C2F}
+	EndGlobalSection
+EndGlobal
