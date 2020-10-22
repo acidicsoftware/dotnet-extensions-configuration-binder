@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Acidic.Extensions.Configuration.TestAssets
+namespace Acidic.Extensions.Configuration.Binder.TestAssets
 {
     public static class ExceptionHelpers
     {

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,8 +9,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>configuration;binding;appsettings</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Title>Acidic.Extensions.Configuration</Title>
-    <Description>Extension for Microsoft.Extensions.Configuration that simplifies the process of binding a configuration sub-section to a class, a little bit.</Description>
+    <Title>Acidic.Extensions.Configuration.Binder</Title>
+    <Description>Extensions for Microsoft.Extensions.Configuration.Binder that simplifies the process of binding a configuration sub-section to a class, a little bit.</Description>
     <PackageIcon></PackageIcon>
   </PropertyGroup>
 

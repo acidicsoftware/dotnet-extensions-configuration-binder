@@ -13,11 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Test.runsettings = Test.runsettings
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration", "src\Acidic.Extensions.Configuration\Acidic.Extensions.Configuration.csproj", "{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration.Binder", "src\Acidic.Extensions.Configuration.Binder\Acidic.Extensions.Configuration.Binder.csproj", "{37C651FE-BDE6-4F30-B7A6-C9A58A999C28}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration.UnitTests", "test\Acidic.Extensions.Configuration.UnitTests\Acidic.Extensions.Configuration.UnitTests.csproj", "{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration.Binder.UnitTests", "test\Acidic.Extensions.Configuration.Binder.UnitTests\Acidic.Extensions.Configuration.Binder.UnitTests.csproj", "{9CCD72F3-7D5C-4B91-84F2-E26ABBF3D1D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acidic.Extensions.Configuration.TestAssets", "test\Acidic.Extensions.Configuration.TestAssets\Acidic.Extensions.Configuration.TestAssets.csproj", "{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Acidic.Extensions.Configuration.Binder.TestAssets", "test\Acidic.Extensions.Configuration.Binder.TestAssets\Acidic.Extensions.Configuration.Binder.TestAssets.csproj", "{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acidic.Extensions.Configuration.Binder.IntegrationTests", "test\Acidic.Extensions.Configuration.Binder.IntegrationTests\Acidic.Extensions.Configuration.Binder.IntegrationTests.csproj", "{F565BB3E-B043-42BF-88CC-F0EB1F8D26AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8516EDDF-FDE5-42E3-8BA8-53FCBEB532AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F565BB3E-B043-42BF-88CC-F0EB1F8D26AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F565BB3E-B043-42BF-88CC-F0EB1F8D26AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F565BB3E-B043-42BF-88CC-F0EB1F8D26AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F565BB3E-B043-42BF-88CC-F0EB1F8D26AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

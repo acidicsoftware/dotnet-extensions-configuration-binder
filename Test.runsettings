@@ -10,6 +10,7 @@
             <ModulePaths>
               <Exclude>
                 <ModulePath>.*\.UnitTests.dll</ModulePath>
+                <ModulePath>.*\.IntegrationTests.dll</ModulePath>
                 <ModulePath>.*\.TestAssets.dll</ModulePath>
               </Exclude>
             </ModulePaths>
